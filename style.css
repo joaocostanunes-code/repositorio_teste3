@@ -1,0 +1,291 @@
+/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f0f13;
+    color: #e0e0e0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #181824;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 5%;
+    border-bottom: 2px solid #ff0055;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff0055;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff0055;
+}
+
+/* Banner Principal */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(180deg, #181824 0%, #0f0f13 100%);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #a0a0b0;
+}
+
+/* Grids e Cards */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.container h2 {
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background-color: #181824;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img {
+    height: 180px;
+    width: 100%;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.tag {
+    background-color: #ff0055;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.card-content h3 {
+    margin: 12px 0 8px 0;
+    color: #fff;
+}
+
+.card-content p {
+    color: #a0a0b0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Botão de Curtida */
+.like-btn {
+    background-color: transparent;
+    border: 1px solid #ff0055;
+    color: #ff0055;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.like-btn:hover {
+    background-color: #ff0055;
+    color: #fff;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #181824;
+    color: #707080;
+    margin-top: 40px;
+}/* Configurações Gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #0f0f13;
+    color: #e0e0e0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #181824;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 5%;
+    border-bottom: 2px solid #ff0055;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff0055;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff0055;
+}
+
+/* Banner Principal */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(180deg, #181824 0%, #0f0f13 100%);
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    color: #a0a0b0;
+}
+
+/* Grids e Cards */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.container h2 {
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background-color: #181824;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img {
+    height: 180px;
+    width: 100%;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.tag {
+    background-color: #ff0055;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.card-content h3 {
+    margin: 12px 0 8px 0;
+    color: #fff;
+}
+
+.card-content p {
+    color: #a0a0b0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Botão de Curtida */
+.like-btn {
+    background-color: transparent;
+    border: 1px solid #ff0055;
+    color: #ff0055;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.like-btn:hover {
+    background-color: #ff0055;
+    color: #fff;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #181824;
+    color: #707080;
+    margin-top: 40px;
+}
